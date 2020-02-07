@@ -40,7 +40,7 @@ __Approach__
 - return minimum(angle, 360-angle)
 - hour hand moves 360 in 12 hours => 360/12 = 30 degree in one hour or 0.5 degree in 1 min
 - Minute hand moves 360 in 60 mins => 360/60 = 6 degree in one min
-- So if given time is h hours and m mins, hour hand will move (h*60+m)*0.5 and minute hand will move 6*m
+- So if given time is h hours and m mins, hour hand will move (h\*60+m)\*0.5 and minute hand will move 6\*m
 
 # Test 3
 
@@ -67,16 +67,15 @@ Make sure the pyramid has spaces on both the left *and* right hand sides.
 
 __Example 1__
 
-- Input `levels = 3`
+- Input `levels = 1`
 - Output
     ```
-        ' # '
-        '###'
+        '#'
     ```
 
 __Example 2__
 
-- Input `levels = 3`
+- Input `levels = 2`
 - Output
     ```
         ' # '
